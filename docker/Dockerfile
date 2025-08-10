@@ -134,7 +134,7 @@ RUN wget -c ${JSON_LINK} && mv json.hpp /usr/include/
 
 
 # Build OWT specific modules
-ARG OWTSERVER_REPO=https://github.com/open-webrtc-toolkit/owt-server.git
+ARG OWTSERVER_REPO=https://github.com/nevermoreluo/owt-server.git
 ARG OPENH264_MAJOR=1
 ARG OPENH264_MINOR=7
 ARG OPENH264_SOVER=4
@@ -148,8 +148,8 @@ ARG WEBRTC_REPO=https://github.com/open-webrtc-toolkit/owt-deps-webrtc.git
 ARG SVT_VER=v1.3.0
 ARG SVT_REPO=https://github.com/intel/SVT-HEVC.git
 ARG SERVER_PATH=/home/owt-server
-ARG OWT_SDK_REPO=https://github.com/open-webrtc-toolkit/owt-client-javascript.git
-ARG OWT_BRANCH=v5.0
+ARG OWT_SDK_REPO=https://github.com/nevermoreluo/owt-client-javascript.git
+ARG OWT_BRANCH=5.0.x
 ARG IMG_APP_PATH=/app_data/
 ENV APP_PATH=${IMG_APP_PATH}
 

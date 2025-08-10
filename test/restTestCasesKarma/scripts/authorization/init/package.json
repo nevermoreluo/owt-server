@@ -4,8 +4,8 @@
   "dependencies": {
     "ajv": "^6.12.3",
     "amqp": "*",
-    "body-parser": "*",
-    "express": "*",
+    "body-parser": "1.20.3",
+    "express": "4.16.4",
     "fraction.js": "*",
     "log4js": "^6.3.0",
     "mongojs": "",
